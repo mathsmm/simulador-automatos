@@ -1,0 +1,3 @@
+// ESPERA: caractere inesperado '@'
+AUTOMATO "Teste";
+ESTADOS q0 (INICIAL, ACEITACAO) @;

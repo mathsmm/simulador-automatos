@@ -1,0 +1,12 @@
+// AFD completo: aceita palavras sobre {a, b} com uma quantidade par de 'a'.
+AUTOMATO "Quantidade par de a";
+
+ESTADOS par (INICIAL, ACEITACAO), impar;
+
+TRANSICAO par   -> impar COM 'a';
+TRANSICAO impar -> par   COM 'a';
+TRANSICAO par   -> par   COM 'b';
+TRANSICAO impar -> impar COM 'b';
+
+TESTAR "", "aa", "abab", "aab", "bbb";
+SAIDA "par-de-as.svg";

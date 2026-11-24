@@ -1,0 +1,4 @@
+// ESPERA: estado de origem 'q0' não foi declarado
+AUTOMATO "Teste";
+TRANSICAO q0 -> q0 COM 'a';
+ESTADOS q0 (INICIAL, ACEITACAO);

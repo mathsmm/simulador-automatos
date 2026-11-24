@@ -1,0 +1,2 @@
+// ESPERA: encontrado ESTADOS, mas era esperado AUTOMATO
+ESTADOS q0 (INICIAL, ACEITACAO);

@@ -1,0 +1,3 @@
+// ESPERA: texto entre aspas não foi fechado
+AUTOMATO "Teste;
+ESTADOS q0 (INICIAL, ACEITACAO);

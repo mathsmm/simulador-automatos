@@ -1,0 +1,3 @@
+// ESPERA: nenhum estado foi declarado
+AUTOMATO "Teste";
+SAIDA "x.svg"

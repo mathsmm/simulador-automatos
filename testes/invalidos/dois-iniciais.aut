@@ -1,0 +1,4 @@
+// ESPERA: apenas um estado pode ser INICIAL
+AUTOMATO "Teste";
+ESTADOS q0 (INICIAL), q1 (INICIAL, ACEITACAO);
+TRANSICAO q0 -> q1 COM 'a';

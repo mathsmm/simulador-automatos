@@ -1,0 +1,4 @@
+// ESPERA: erro de sintaxe: encontrado simbolo, mas era esperado COM
+AUTOMATO "Teste";
+ESTADOS q0 (INICIAL), q1 (ACEITACAO);
+TRANSICAO q0 -> q1 'a';

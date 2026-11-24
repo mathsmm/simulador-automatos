@@ -1,0 +1,4 @@
+// ESPERA: nenhum estado foi marcado como INICIAL
+AUTOMATO "Teste";
+ESTADOS q0, q1 (ACEITACAO);
+TRANSICAO q0 -> q1 COM 'a';

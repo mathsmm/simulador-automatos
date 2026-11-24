@@ -1,0 +1,11 @@
+// AFN-ε: reconhece a* b* (zero ou mais 'a' seguidos de zero ou mais 'b').
+AUTOMATO "a* b* com transição vazia";
+
+ESTADOS s0 (INICIAL, ACEITACAO), s1 (ACEITACAO);
+
+TRANSICAO s0 -> s0 COM 'a';
+TRANSICAO s0 -> s1 COM EPSILON;
+TRANSICAO s1 -> s1 COM 'b';
+
+TESTAR "", "aaabb", "bbb", "aba";
+SAIDA "afn-epsilon.svg";

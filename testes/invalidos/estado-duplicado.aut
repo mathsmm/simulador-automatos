@@ -1,0 +1,3 @@
+// ESPERA: estado 'q0' já foi declarado
+AUTOMATO "Teste";
+ESTADOS q0 (INICIAL), q1 (ACEITACAO), q0;

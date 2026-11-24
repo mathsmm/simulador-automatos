@@ -1,0 +1,5 @@
+AUTOMATO "Reconhecedor";
+ESTADOS q0 (INICIAL), q1 (ACEITACAO);
+TRANSICAO q0 -> q1 COM 'a';
+TRANSICAO q1 -> q1 COM 'b';
+SAIDA "automato-1.svg"

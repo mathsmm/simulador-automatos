@@ -1,0 +1,4 @@
+// ESPERA: comentário de bloco não foi fechado
+AUTOMATO "Teste";
+ESTADOS q0 (INICIAL, ACEITACAO);
+/* comentário sem fim

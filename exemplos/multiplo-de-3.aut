@@ -1,0 +1,17 @@
+/*
+ * AFD que lê um número em binário (bit mais significativo primeiro) e aceita
+ * se ele for múltiplo de 3. O estado guarda o resto da divisão por 3.
+ */
+AUTOMATO "Binário múltiplo de 3";
+
+ESTADOS r0 (INICIAL, ACEITACAO), r1, r2;
+
+TRANSICAO r0 -> r0 COM '0';
+TRANSICAO r0 -> r1 COM '1';
+TRANSICAO r1 -> r2 COM '0';
+TRANSICAO r1 -> r0 COM '1';
+TRANSICAO r2 -> r1 COM '0';
+TRANSICAO r2 -> r2 COM '1';
+
+TESTAR "0", "11", "110", "1001", "111", "10";
+SAIDA "multiplo-de-3.svg"

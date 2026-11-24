@@ -1,0 +1,5 @@
+// ESPERA: SAIDA já foi definida
+AUTOMATO "Teste";
+ESTADOS q0 (INICIAL, ACEITACAO);
+SAIDA "a.svg";
+SAIDA "b.svg";

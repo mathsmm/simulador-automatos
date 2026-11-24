@@ -1,0 +1,7 @@
+// ESPERA: 3 erros
+AUTOMATO "Vários erros";
+ESTADOS q0 (INICIAL), q1 (ACEITACAO);
+TRANSICAO q0 -> q9 COM 'a';
+TRANSICAO q0 q1 COM 'b';
+ESTADOS q1;
+TRANSICAO q1 -> q0 COM 'a';

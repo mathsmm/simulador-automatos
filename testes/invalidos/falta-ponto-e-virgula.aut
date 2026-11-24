@@ -1,0 +1,4 @@
+// ESPERA: 3:37: erro: falta ';' entre os comandos
+AUTOMATO "Teste";
+ESTADOS q0 (INICIAL), q1 (ACEITACAO)
+TRANSICAO q0 -> q1 COM 'a';

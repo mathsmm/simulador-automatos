@@ -1,0 +1,12 @@
+// AFN: aceita palavras sobre {a, b} que terminam em "ab".
+// Vários símbolos na mesma transição são separados por vírgula.
+AUTOMATO "Termina em ab";
+
+ESTADOS q0 (INICIAL), q1, q2 (ACEITACAO);
+
+TRANSICAO q0 -> q0 COM 'a', 'b';
+TRANSICAO q0 -> q1 COM 'a';
+TRANSICAO q1 -> q2 COM 'b';
+
+TESTAR "ab", "babab", "aba", "b";
+SAIDA "termina-em-ab.svg";

@@ -1,0 +1,4 @@
+// ESPERA: um símbolo deve ter exatamente um caractere
+AUTOMATO "Teste";
+ESTADOS q0 (INICIAL, ACEITACAO);
+TRANSICAO q0 -> q0 COM 'ab';
